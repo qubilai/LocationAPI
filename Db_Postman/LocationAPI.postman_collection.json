@@ -1,0 +1,97 @@
+{
+	"info": {
+		"_postman_id": "53dd684c-93b5-452a-8506-91f8c9bafda7",
+		"name": "LocationAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:7129/api/Location/GetLocation/45478/101/4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7129/api/Location/GetLocation/45478/101/4",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7129",
+					"path": [
+						"api",
+						"Location",
+						"GetLocation",
+						"45478",
+						"101",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7129/api/Location/GetNeighborhood/104",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7129/api/Location/GetNeighborhood/104",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7129",
+					"path": [
+						"api",
+						"Location",
+						"GetNeighborhood",
+						"104"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7129/api/Location/GetDistrict/23",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7129/api/Location/GetDistrict/23",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7129",
+					"path": [
+						"api",
+						"Location",
+						"GetDistrict",
+						"23"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7129/api/Location",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7129/api/Location",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7129",
+					"path": [
+						"api",
+						"Location"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
